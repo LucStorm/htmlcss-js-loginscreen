@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.content{
+    border-radius: 15px;
+    background-color: white;
+    width: 960px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.content::before{
+    content: "";
+    position: absolute;
+    background-color: #20B2AA;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: 0;
+}
+.first-content {
+    display: flex;
+
+}
+
+
+.title
+{
+    color: ;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-white {
+    color: #fff;
+}
+.title-second {
+    color:#20B2AA;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+}
+.first-column {
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 1;
+}
+.second-column {
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    z-index: 11; 
+
+}
+
+.list-social-midia{
+    display: flex;
+    list-style-type: none;
+    transition: background-color 0.5;
+}
+.item-media {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #bdc3c7;
+}
+.linksocialmidia:not(:first-child){
+    margin-left: 10px ;
+    
+}
+.linksocialmidia:hover .item-media{
+    background-color: #20B2AA;
+    color: white;
+    border-color: #20B2AA;
+    transition: background-color .5s;
+}
+
+
+.social-media {
+    margin: 1rem 0
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: center;
+}
+.form input {
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    margin: 8px;
+    width: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    align-self: center;
+    margin-top: ;
+}
+
+
+.btn-primary {
+     background-color: transparent;
+     border: 1px solid #fff;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: teal;
+    transition: background-color .5s;
+    
+}
+
+.btn-second{
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+    transition: background-color .5s;
+
+}
+
+.btn-second:hover{
+    background-color: #fff;
+    border: 1px solid #20B2AA;
+    color: ##20B2AAb;
+    transition: background-color .5s;
+
+}
+.description-primary {
+    color: #fff;
+}
+.description-second{
+    color: #7f8c8d;
+}
+
+.label-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    
+}
+.icon-modify{
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+
+.second-content {
+    display: flex;
+    position: absolute;
+}
+
+.second-content .first-column {
+    order: 2;
+
+    
+
+}
+.second-content .second-column {
+    order: 1;
+    z-index: 1;
+    
+}
+
+.password {
+    color: #34495e;
+    font-size: 14px;
+}
+.sign-in-js .first-content .first-column {
+    z-index: -1;
+}
+
+.sign-in-js .second-content .second-column {
+    z-index: 11;
+}
+.sign-in-js .second-content .first-column {
+    z-index: 13;
+}
+
+.sign-in-js .content::before {
+    left: 60%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    animation: slidein 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+
+
+    z-index: 12;
+}
+
+.sign-up-js .content::before {
+    animation: slideout 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+
+    z-index: 12;
+}
+
+.sign-up-js .second-content .first-column,
+.sign-up-js .second-content .second-column {
+    z-index: -1;
+}
+
+.sign-up-js .first-content .second-column {
+    z-index: 11;
+}
+
+.sign-up-js .first-content .first-column {
+    z-index: 13;    
+}
+
+
+/* DESLOCAMENTO CONTEÚDO ATRÁS DO CONTENT:BEFORE*/
+.sign-in-js .first-content .second-column {
+
+    z-index: -1;
+    position: relative;
+    animation: deslocamentoEsq 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+}
+
+.sign-up-js .second-content .second-column {
+    position: relative;
+    z-index: -1;
+    animation: deslocamentoDir 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+}
+
+ 
+/*ANIMAÇAO CSS */
+
+@keyframes slidein {
+    from {
+        left: 0;
+        width: 40%;
+    }
+    
+
+    to{ 
+        left: 60%;
+        width: 40%;
+    background-color: #20B2AA;
+    }
+}
+
+@keyframes slideout {
+    from {
+        left: 60%;
+        width: 40%;
+
+
+
+    to{ 
+        left: 0%;
+        width: 40%;
+background-color: #20B2AA;
+    }
+    
+}
