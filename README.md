@@ -1,8 +1,9 @@
-#htmlcss-loginscreen
+# htmlcss-loginscreen
 
-:pushpin: ##Tela de login e cadastro com animação CSS, utilizando apenas HTML e CSS.
- ##Login and registration Screen with CSS animatio, using only HTML and CSS.
+:pushpin:  ## Tela de login e cadastro com animação CSS, utilizando apenas HTML e CSS.
 
-:construction: ##Foi utilizado JS apenas para evento de click para a animação CSS
-:construction: ##JS was used only for click event for CSS animation
+ :pushpin: ## Login and registration Screen with CSS animatio, using only HTML and CSS.
+
+:construction: ## Foi utilizado JS apenas para evento de click para a animação CSS
+:construction: ## JS was used only for click event for CSS animation
 
