@@ -3,7 +3,7 @@
 
 ## :pushpin: Login and registration Screen with CSS animation, using only HTML and CSS.
 
-## :rotating_light: Foi utilizado JS apenas para evento de click para a animação CSS
+## :rotating_light: *Foi utilizado JS apenas para evento de click para a animação CSS*
 
-## :rotating_light: JS was used only for click event for CSS animation
+## *JS was used only for click event for CSS animation*
 
