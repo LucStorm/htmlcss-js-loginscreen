@@ -1,7 +1,5 @@
 # htmlcss-loginscreen :sparkles:
 
-https://imgflip.com/gif/4uc4ue
-
 ## :pushpin: Tela de login e cadastro com animação CSS, utilizando apenas HTML e CSS. 
 
 ## :pushpin: Login and registration Screen with CSS animation, using only HTML and CSS.
