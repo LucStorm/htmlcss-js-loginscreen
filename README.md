@@ -1,4 +1,6 @@
 # htmlcss-loginscreen :sparkles:
+![Login Screen](https://github.com/LucStorm/htmlcss-loginscreen/blob/main/gif%20loginscreen.mp4)
+
 ## :pushpin: Tela de login e cadastro com animação CSS, utilizando apenas HTML e CSS. 
 
 ## :pushpin: Login and registration Screen with CSS animation, using only HTML and CSS.
